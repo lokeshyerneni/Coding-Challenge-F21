@@ -35,7 +35,7 @@ of the text. The closer the number is to 0, the higher the objectivity. In an op
 
 TextBlob states that the entirety of the text has a polarity of 0.21353 and a subjectivity of 0.59540. Though the polarity was higher than I anticipated, it doesn't seem too high since there were more
 statements that were more positive than negative. Additionally, the subjectivity seems to be lower than what I would anticipate, it is still near 60%, which makes sense as this is a story. When I analyzed only the sentences,
-it was found that majority of the sentences on their own without any context tend to be neutral, though there were certain sentences that were outliers, which created the polarity and subjectivity that it has right now.
+it was found that majority of the sentences on their own without any context tend to be neutral, though there were certain sentences that were highly positive/negative, which created the polarity and subjectivity that it has right now.
 
 ## Resources Utilized 
 

@@ -1,11 +1,11 @@
 # ACM Research Coding Challenge (Fall 2021)
 
-##Coding Language Utilized
+## Coding Language Utilized
 ___
 
 I utilized Python to create this program as well as the TextBlob API that was imported into the project.
 
-##My estimation
+## My estimation
 ___
 
 After skimming through the text file,I saw that lines 1-21 were negative due to strong words such as "furious", "murder," and "bleed." However, from lines 25-53, 

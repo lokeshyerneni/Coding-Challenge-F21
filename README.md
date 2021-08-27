@@ -37,6 +37,10 @@ TextBlob states that the entirety of the text has a polarity of 0.21353 and a su
 statements that were more positive than negative. Additionally, the subjectivity seems to be lower than what I would anticipate, it is still near 60%, which makes sense as this is a story. When I analyzed only the sentences,
 it was found that majority of the sentences on their own without any context tend to be neutral, though there were certain sentences that were highly positive/negative, which created the polarity and subjectivity that it has right now.
 
+## How does TextBlob work?
+
+TextBlob primarily focuses on two main things, as specifed above: polarity and subjectivity. In order to give the results it gives, TextBlob utilizes NLTK: a library that provides users the necessary resources to manipulate with their will. In order to find polarity, TextBlob utilizes each word in lexicon, which is derived from "\_text.py" and ignores unnecessary things such as pronouns. TextBlob utilizes the "averaging technique" on each word to derive a polarity score and proceeds to do it for each and every word. By doing this, it then computes a combined polarity for the entire text file and returns it. Additionally, if a modifier is used in the text file, it will use an intensifier and ignore polarity to find the sentimentality of the text.
+
 ## Resources Utilized 
 
 Open and write files: https://www.geeksforgeeks.org/read-a-file-line-by-line-in-python/
@@ -49,6 +53,7 @@ Flair API: https://github.com/flairNLP/flair
 
 Sentiment Analysis Recommendations: https://neptune.ai/blog/sentiment-analysis-python-textblob-vs-vader-vs-flair
 
+Details of TextBlob: https://towardsdatascience.com/my-absolute-go-to-for-sentiment-analysis-textblob-3ac3a11d524
 ___
 
 ## [](https://github.com/ACM-Research/Coding-Challenge-F21#no-collaboration-policy)No Collaboration Policy
